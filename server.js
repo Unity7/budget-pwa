@@ -2,7 +2,6 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
-const path = require("path");
 
 const PORT = process.env.PORT || 3001;
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget";
@@ -16,11 +15,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
-// app.use("/icons", express.static(path.join(__dirname, "public/icons")));
 
-mongoose.connect(MONGODB_URI, {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/budget-tracker', {
   useNewUrlParser: true,
   useFindAndModify: false,
+  useUnifiedTopology: true
 });
 
 // routes
