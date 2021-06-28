@@ -1,34 +1,37 @@
-# Budget Tracker
+## Budget Tracker
 
 ## Description
 
-An app that can be used to track you daily budget.
+The application is a budget tracker that can also be used offline as a PWA.
 
-![Budget Tracker](budget-tracker_screengrab_.png)
-
-## Tables of Contents
+## Table of Contents
 
 - [Installation](#installation)
-- [Deployed App](#deployed-app)
 - [Usage](#usage)
-- [Questions](#questions)
+- [License](#license)
 
-## Installation
-
-- npm init --y
-- npm install
-
-## Deployed App
+Clone the Repo\
+Run npm install in your terminal\
+Run server.js\
 
 ## Usage
 
-An app that can be used to track you daily budget that can be used offline and downloaded as a PWA on to your mobile device via your web browser
+This program is available and open to all users
+
+## License
+
+Currently does not have any license
 
 ## Contributing
 
-N/A
+No Active Contribution
+
+## Tests
+
+local test
 
 ## Questions
 
-For any questions please reach out to
-github: [Unity7](https://github.com/unity7)
+GitHub: https://github.com/Unity7
+
+![image](https://user-images.githubusercontent.com/44449168/123564305-cf0bdb80-d76d-11eb-9a0b-be4dccfe7522.png)
